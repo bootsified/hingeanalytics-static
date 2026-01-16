@@ -1,0 +1,1 @@
+# hingeanalytics-static
