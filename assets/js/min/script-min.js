@@ -19,7 +19,7 @@ var _____WB$wombat$assign$function_____ = function (name) { return (self._wb_wom
 			if (body) {
 				body.removeAttribute('data-vide-bg');
 				body.removeAttribute('data-vide-options');
-				var posterHtml = '<div class="bg-video" style="position: absolute; z-index: -1; inset: 0px; overflow: hidden; background-size: cover; background-color: transparent; background-repeat: no-repeat; background-position: 50% 50%; background-image: none;"><img src="assets/img/monkey_full_sm.jpg" style="margin: auto; position: absolute; z-index: -1; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: visible; opacity: 1; width: auto; height: 100vh;" /></div>';
+				var posterHtml = '<div class="bg-video" style="position: absolute; z-index: -1; inset: 0px; overflow: hidden; background-size: cover; background-color: transparent; background-repeat: no-repeat; background-position: 50% 50%; background-image: none;"><img src="assets/vid/monkey_full_sm.jpg" style="margin: auto; position: absolute; z-index: -1; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: visible; opacity: 1; width: auto; height: 100vh;" /></div>';
 				document.body.insertAdjacentHTML('afterbegin', posterHtml);
 				// Set min-height to 100vh for all elements with .fit-to-window class
 				var fitToWindowElements = document.querySelectorAll('.fit-to-window');
