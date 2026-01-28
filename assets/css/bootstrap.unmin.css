@@ -4646,7 +4646,7 @@ a.anchor {
 @media only screen and (min-width:768px) {
     .bg-video {
         background-image: url('../vid/monkey_full.jpg') !important;
-        background-position: 50% 50% !important;
+        background-position: 25% 50% !important;
         position: fixed !important
     }
 }
